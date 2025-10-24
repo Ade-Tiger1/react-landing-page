@@ -27,7 +27,7 @@ const Home = () => {
         <header>
             <div className='nav-logo'>
                 <Link to="#">
-                <img src={`${import.meta.env.BASE_URL}images/navicon.png`} alt='Nexcent Logo' />
+                <img src="/react-landing-page/react-landing-page/images/navicon.png" alt='Nexcent Logo' />
                 <span>Nexcent</span>
                 </Link>
             </div>
@@ -70,7 +70,7 @@ const Home = () => {
                 </div>
 
                 <div className='main-image'>
-                    <img src={`${import.meta.env.BASE_URL}images/mainicon.png`} alt="" />
+                    <img src="/react-landing-page/images/mainicon.png" alt="" />
                 </div>
             </section>
 
@@ -83,13 +83,13 @@ const Home = () => {
                     <p>We have been working with some Fortune 500+ clients</p>
                 </div>
                 <div className='second-header-flex-icons'>
-                    <img className='icon1' src={`${import.meta.env.BASE_URL}images/icon1.png`} alt="" />
-                    <img src={`${import.meta.env.BASE_URL}images/icon2.png`} alt="" />
-                    <img src={`${import.meta.env.BASE_URL}images/icon3.png`} alt="" />
-                    <img src={`${import.meta.env.BASE_URL}images/icon4.png`} alt="" />
-                    <img src={`${import.meta.env.BASE_URL}images/icon5.png`} alt="" />
-                    <img src={`${import.meta.env.BASE_URL}images/icon6.png`} alt="" />
-                    <img src={`${import.meta.env.BASE_URL}images/icon7.png`} alt="" />
+                    <img className='icon1' src="/react-landing-page/images/icon1.png" alt="" />
+                    <img src="/react-landing-page/images/icon2.png" alt="" />
+                    <img src="/react-landing-page/images/icon3.png" alt="" />
+                    <img src="/react-landing-page/images/icon4.png" alt="" />
+                    <img src="/react-landing-page/images/icon5.png" alt="" />
+                    <img src="/react-landing-page/images/icon6.png" alt="" />
+                    <img src="/react-landing-page/images/icon7.png" alt="" />
                 </div>
 
                 <div style={{marginTop: "40px"}} className='second-heading'>
@@ -99,19 +99,19 @@ const Home = () => {
 
                 <div className='second-header-flex'>
                     <div className="card">
-                        <img src={`${import.meta.env.BASE_URL}images/second-icon.png`} alt="" />
+                        <img src="/react-landing-page/images/second-icon.png" alt="" />
                         <h3>Membership Organisations</h3>
                         <p>Our membership management software provides full automation of membership renewaks and payment</p>
                     </div>
 
                     <div className="card">
-                        <img src={`${import.meta.env.BASE_URL}images/second-icon2.png`} alt="" />
+                        <img src="/react-landing-page/images/second-icon2.png" alt="" />
                         <h3>National Associations</h3>
                          <p>Our membership management software provides full automation of membership renewaks and payment</p>
                     </div>
 
                     <div className="card">
-                        <img src={`${import.meta.env.BASE_URL}images/second-icon3.png`} alt="" />
+                        <img src="/react-landing-page/images/second-icon3.png" alt="" />
                         <h3>Clubs And Groups</h3>
                          <p>Our membership management software provides full automation of membership renewaks and payment</p>
                     </div>
@@ -125,7 +125,7 @@ const Home = () => {
 
         <main className='second-section'>
                 
-                    <img src={`${import.meta.env.BASE_URL}images/rafiki.png`} alt="" />
+                    <img src="/react-landing-page/images/rafiki.png" alt="" />
                 
                 <div className="side-details">
                     <div>
@@ -158,7 +158,7 @@ const Home = () => {
                     <div className="inner-flex">
                         <div className="items">
                             <div>
-                                <img style={{width: "30px", height:"30px"}} src={`${import.meta.env.BASE_URL}images/thirdicon1.png`} alt=''/>
+                                <img style={{width: "30px", height:"30px"}} src='/react-landing-page/images/thirdicon1.png' alt=''/>
                             </div>
                             
                             <div className='move-down'>
@@ -170,7 +170,7 @@ const Home = () => {
                         <div className="items">
                             
                             <div>
-                                <img style={{width: "30px", height:"30px"}} src={`${import.meta.env.BASE_URL}images/thirdicon2.png`} alt=''/>
+                                <img style={{width: "30px", height:"30px"}} src='/react-landing-page/images/thirdicon2.png' alt=''/>
                             </div>
                             
                             <div className='move-down'>
@@ -183,7 +183,7 @@ const Home = () => {
                     <div className="another-flex">
                         <div className="items">
                             <div>
-                                <img style={{width: "30px", height:"30px"}} src={`${import.meta.env.BASE_URL}images/thirdicon3.png`} alt=''/>
+                                <img style={{width: "30px", height:"30px"}} src='/react-landing-page/images/thirdicon3.png' alt=''/>
                             </div>
                             
                             <div className='move-down'>
@@ -194,7 +194,7 @@ const Home = () => {
 
                         <div className="items">
                             <div>
-                                <img style={{width: "30px", height:"30px"}} src={`${import.meta.env.BASE_URL}images/thirdicon4.png`} alt=''/>
+                                <img style={{width: "30px", height:"30px"}} src='/react-landing-page/images/thirdicon4.png' alt=''/>
                             </div>
                             
                             <div className='move-down'>
@@ -211,7 +211,7 @@ const Home = () => {
 
         <main style={{marginTop: "20px"}} className='second-sections'>
                 
-                    <img src={`${import.meta.env.BASE_URL}images/pana.png`} alt="" />
+                    <img src="/react-landing-page/images/pana.png" alt="" />
                 
                 <div className="side-details">
                     <div>
@@ -232,7 +232,7 @@ const Home = () => {
         <section className='nav-container-fourth'>
             <div className='fourth-container-flex'>
                 <div className='fourth-main-details'>
-                    <img src={`${import.meta.env.BASE_URL}images/repimage.png`} alt='Section image'/>
+                    <img src='/react-landing-page/images/repimage.png' alt='Section image'/>
                 </div>
 
                 <div className="next-side-details">
@@ -265,7 +265,7 @@ const Home = () => {
             <div className='fifth-flex'>
                 <div className="card-cover">
                     <div className='fifth-card-img'>
-                        <img src={`${import.meta.env.BASE_URL}images/pos1.png`} alt="" />
+                        <img src="/react-landing-page/images/pos1.png" alt="" />
                     </div>
                     
                     <div className='fifth-card'>
@@ -276,7 +276,7 @@ const Home = () => {
                         <Link to="#">
                         Read more
                         <span>
-                            <img style={{width: "20px"}} src={`${import.meta.env.BASE_URL}images/arrow.png`} alt="" />
+                            <img style={{width: "20px"}} src="/react-landing-page/images/arrow.png" alt="" />
                         </span>
                         </Link>
                     </p>
@@ -286,7 +286,7 @@ const Home = () => {
 
                 <div className='card-cover'>
                     <div className='fifth-card-img'>
-                        <img src={`${import.meta.env.BASE_URL}images/pos2.png`} alt="" />
+                        <img src="/react-landing-page/images/pos2.png" alt="" />
                     </div>
 
                     <div className="fifth-card">
@@ -297,7 +297,7 @@ const Home = () => {
                         <Link to="#">
                         Read more
                         <span>
-                            <img style={{width: "20px"}} src={`${import.meta.env.BASE_URL}images/arrow.png`} alt="" />
+                            <img style={{width: "20px"}} src="/react-landing-page/images/arrow.png" alt="" />
                         </span>
                         </Link>
                         </p>
@@ -307,7 +307,7 @@ const Home = () => {
                 
                 <div className="card-cover">
                     <div className='fifth-card-img'>
-                        <img src={`${import.meta.env.BASE_URL}images/pos3.png`} alt="" />
+                        <img src="/react-landing-page/images/pos3.png" alt="" />
                     </div>
                     <div className="fifth-card">
                         <b>
@@ -317,7 +317,7 @@ const Home = () => {
                         <Link to="#">
                         Read more
                         <span>
-                            <img style={{width: "20px"}} src={`${import.meta.env.BASE_URL}images/arrow.png`} alt="" />
+                            <img style={{width: "20px"}} src="/react-landing-page/images/arrow.png" alt="" />
                         </span>
                         </Link>
                         </p>
@@ -348,7 +348,7 @@ const Home = () => {
         <footer className='footer'>
             <div className='footer-first'>
                 <div className='footer-image'>
-                    <img src={`${import.meta.env.BASE_URL}images/footer.png`} alt="Company Logo" />
+                    <img src="/react-landing-page/images/footer.png" alt="Company Logo" />
                     <span>Nexcent</span>
                 </div>
 
@@ -358,10 +358,10 @@ const Home = () => {
                 <br /><br />
 
                 <div className="footer-icon">
-                    <img src={`${import.meta.env.BASE_URL}images/igicon.png`} alt="" />
-                    <img src={`${import.meta.env.BASE_URL}images/ball.png`} alt="" />
-                    <img src={`${import.meta.env.BASE_URL}images/twitter.png`} alt="" />
-                    <img src={`${import.meta.env.BASE_URL}images/youtube.png`} alt="" />
+                    <img src="/react-landing-page/images/igicon.png" alt="" />
+                    <img src="/react-landing-page/images/ball.png" alt="" />
+                    <img src="/react-landing-page/images/twitter.png" alt="" />
+                    <img src="/react-landing-page/images/youtube.png" alt="" />
                 </div>
             </div>
 
@@ -400,7 +400,7 @@ const Home = () => {
                     <form className="footer-input">
                         <input type="text"  placeholder='Your email address' />
                         <button className='footer-btn' type='button'>
-                            <img src={`${import.meta.env.BASE_URL}images/send.png`} alt="Subscribe Button" />
+                            <img src="/react-landing-page/images/send.png" alt="Subscribe Button" />
                         </button>
                     </form>
                     
