@@ -27,7 +27,7 @@ const Home = () => {
         <header>
             <div className='nav-logo'>
                 <Link to="#">
-                <img src="/react-landing-page/react-landing-page/images/navicon.png" alt='Nexcent Logo' />
+                <img src="/react-landing-page/images/navicon.png" alt='Nexcent Logo' />
                 <span>Nexcent</span>
                 </Link>
             </div>
